@@ -1,0 +1,95 @@
+.d1
+{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    box-shadow: 10px 10px 15px black;
+    animation-name: xyz;
+    animation-duration: 10s;
+    animation-delay: -5s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: 2;
+    animation-timing-function: ease-in;
+    position:absolute;
+    border-radius: 50px;
+    top:0;left:50%;;
+}
+@keyframes xyz
+{
+    0%
+    {
+        background-color: blue;
+        top:0;left:0;
+    }
+    25%
+    {
+        background-color: yellow;
+        transform: rotate(180deg);
+        border-radius: 50px;
+        top: 0;
+        left: 80%;
+    }
+    50%
+    {
+        background-color: chartreuse;
+        border-radius: 50px;
+        top: 80%;left: 80%;
+        transform: rotate(90deg);
+    }
+    75%
+    {
+        background-image: url(img7.jfif);
+        top: 80%;
+        left: 0;
+        border-radius: 50%;
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+        border-radius: 10px;
+    }
+    /*
+    0%
+    {
+        background-color: pink;
+        transform: rotate(360deg);
+        top: 60%;
+        left: 50%;
+        border-radius: 50px;
+    }
+    25%
+    {
+       background-color: pink;
+        transform: rotate(360deg);
+        top: 40%;
+        left: 25%;
+        border-radius: 50px;
+    }
+    50%
+    {
+        background-color: pink;
+        transform: rotate(360deg);
+        top: 60%;
+        left: 50%;
+        border-radius: 50px;
+    }
+    75%
+    {
+        background-color: pink;
+        transform: rotate(360deg);
+        top: 40%;
+        left: 75%;
+        border-radius: 50px;
+    }
+    100%
+    {
+        border-radius: 50px;
+        background-color: pink;
+        transform: rotate(360deg);
+        top: 60%;
+        left: 50%;
+    }
+    */ 
+}

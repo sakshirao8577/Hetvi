@@ -1,0 +1,31 @@
+.d1{
+    margin: 100px auto;
+    padding: 20px;
+    background-color: darksalmon;
+    border: 3px solid antiquewhite;
+    border-radius: 50px;
+    font-size: 25px;
+    width:200px;
+    height: 200px;
+    text-align: center;
+}
+.i1{
+    display: block;
+    margin: 100px;
+    border-radius: 30px;
+    border: 8px solid;
+    width: 250px;
+    height: 250;
+}
+.d1:hover
+{
+    transform: rotate(-75deg);
+    background-color:bisque ;
+    border-radius: 100px;
+    border: 7px solid darksalmon;
+}
+.i1:hover{
+    transform: skew(-20DEG,-20DEG) rotate(70 DEG) scale(1.3,1.3) translate(20PX);
+    border-radius: 50%;
+    border: 15PX dashed darkcyan;
+}

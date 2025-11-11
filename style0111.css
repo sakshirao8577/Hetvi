@@ -1,0 +1,38 @@
+#b1
+{
+    background-color: rgba(214, 15, 181, 0.1);
+    height:1500px;
+    background-image: url("img.jpeg");
+    background-repeat: repeat-y;
+}
+.box1,.box2,.box3
+{
+    border: 5px dashed darksalmon;
+    padding: 60px;
+    margin: 50px auto;
+    height: 250px;
+    width: 450px;
+}
+.box1
+{
+    background-color: blanchedalmond;
+    box-shadow: 15px 15px 10px pink;
+    /*box-sizing: content-box; /* border-box */
+    background-image: url(img2.jfif);
+}
+.box2
+{
+    background-color: pink;
+    box-shadow: 15px 15px 10px blanchedalmond;
+    box-sizing: content-box;
+}
+.box3
+{
+    background-color: pink;
+    box-shadow: 15px 15px 10px rgb(171, 141, 226);
+    background-image: url(img2.jfif);
+    color: bisque;
+    background-repeat: no-repeat;
+    background-size: cover; /* contain; auto; width height*/
+
+}

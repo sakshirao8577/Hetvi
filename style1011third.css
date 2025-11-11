@@ -1,0 +1,60 @@
+.d1
+{
+    height: 100px;
+    width: 100px;
+    box-shadow: 10px 10px 15px black;
+    animation-name: xyz;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    position:absolute;
+    border-radius: 50px;
+    top:0;left:50%;;
+    background-image: linear-gradient(to top right,pink,purple,aqua,yellowgreen,yellow);
+    background-color: rgb(214, 111, 26);
+}
+@keyframes xyz 
+{
+    0%
+    {
+        background-image: conic-gradient(pink,purple,aqua,yellowgreen,yellow);
+        background-color: rgb(214, 111, 26);
+        top:0;left:0;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }
+    25%
+    {
+        background-image: radial-gradient(from 90 deg,pink,purple,aqua,yellowgreen,yellow);
+        background-color: rgb(214, 111, 26);
+        top:50%;left:25%;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }
+    50%
+    {
+        background-image: conic-gradient(red 0deg,red 90deg,green 90deg, green 180deg,blue 180deg, blue 270deg, yellow 270deg, yellow 360deg);
+        background-color: rgb(214, 111, 26);
+        top:0;left:50%;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }
+    75%
+    {
+        background-image: conic-gradient(pink,purple,aqua,yellowgreen,yellow);
+        background-color: rgb(214, 111, 26);
+        top:50%;left:75%;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }
+    100%
+    {
+        background-image: linear-gradient(to bottom right,pink,purple,aqua,yellowgreen,yellow);
+        background-color: rgb(214, 111, 26);
+        top:0;left:100%;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }    
+}

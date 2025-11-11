@@ -1,0 +1,112 @@
+p::first-line
+{
+    color:palevioletred;
+    font-style:italic;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+p::first-letter
+{
+    color:rgba(245, 147, 90, 0.973);
+    font-size: 60px;
+    text-decoration: underline;
+}
+p::before
+{
+    content: "Note That";
+}
+#b1
+{
+    height:1500px;
+    color: rgb(243, 94, 131);
+}
+p::after
+{
+    content: "🕵️‍♀️👱‍♀️👱‍♀️";
+}
+::selection
+{
+    background-color: rgb(241, 218, 243);
+    color: burlywood;
+}
+ul li::marker
+{
+    font-size: 40px;
+    color:blanchedalmond;
+    content: "#";
+}
+.d1
+{
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid paleturquoise;
+}
+.d1 div{
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    color:burlywood;
+    background-color: cornsilk;
+    font-size: 20px;
+    text-align: center;
+}
+.d1:hover
+{
+    background-color: lightpink;
+    padding: 30px 20px;
+}
+.d1 div:nth-child(2)
+{
+    display: none;
+}
+.d2 span
+{
+    width: 500px;
+    height: 200px;
+    display: block;
+    border: 3px solid;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+}
+.d2:hover
+{
+    background-color:bisque;
+    padding: 30px 20px;
+}
+.p:hover
+{
+    background-color:plum;
+    padding: 30px 20px;
+}
+.da
+{
+    display: flex;
+    background-color: rgba(56, 54, 54, 0.315);
+    padding: 15px;
+    gap: 15PX;
+    justify-content:space-between ;
+    height: 700px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.da:hover
+{
+    background-color:bisque;
+    padding: 30px 20px;
+}
+.b
+{
+    background-color: antiquewhite;
+    color:crimson;
+    text-align: center;
+    font: sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+/*.b:nth-child(2)
+{
+    order: 1;
+    background-color: black;
+    flex: 1 1 100px;
+}*/
